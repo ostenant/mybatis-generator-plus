@@ -50,9 +50,9 @@ mvn clean install
 
 ```xml
 <properties>
-	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	<entity.target.dir>src/main/java/</entity.target.dir>
-	<dao.resources.dir>src/main/resources/</dao.resources.dir>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <entity.target.dir>src/main/java/</entity.target.dir>
+    <dao.resources.dir>src/main/resources/</dao.resources.dir>
 </properties>
 ```
 
