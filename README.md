@@ -4,23 +4,23 @@
 
 ### 1.1. Java Model扩展插件
 
-* SerializablePlugin：Model类是否实现序列化标记接口Serializable；
-* FieldCommentPlugin： Model类是否根据数据库表字段描述信息生成字段的注释；
-* EqualsHashCodePlugin：Model类是否生成hashcode()和equal()方法；
-* ToJsonPlugin：Model类是否生成JavaBean转Fastjson的toJson()方法；
-* FromJsonPlugin：Model类是否生成Fastjson转JavaBean的fromJson()方法；
-* InnerClassKeyPlugin：Model类是否生成XxxKey字段名称内部类。
+* SerializablePlugin：`Model`类是否实现序列化标记接口`Serializable`；
+* FieldCommentPlugin： `Model`类是否根据数据库表字段描述信息生成字段的注释；
+* EqualsHashCodePlugin：`Model`类是否生成`hashcode()`和`equal()`方法；
+* ToJsonPlugin：`Model`类是否生成`JavaBean`转`Fastjson`的`toJson()`方法；
+* FromJsonPlugin：`Model`类是否生成`Fastjson`转`JavaBean`的`fromJson()`方法；
+* InnerClassKeyPlugin：`Model`类是否生成`XxxKey`字段名称内部类。
 
 
 ### 1.2. Java Client/SQL Mapper扩展插件
 
-* UseGeneratedKeysColumnPlugin：SQL XML是否使用主键自增的方式；
-* FindByIdsPlugin：SQL XML是否生成根据主键列表批量查询的SQL Statement；
-* FindAllPlugin：SQL XML是否生成查询所有列表的SQL Statement；
-* DeleteByIdsPlugin：SQL XML是否生成根据主键列表批量从删除的SQL Statement；
-* SaveBatchPlugin：SQL XML是否生成高效的批量插入记录的SQL Statement；
-* UpdateBatchPlugin：SQL XML是否生成高效的批量更新记录的SQL Statement。
-* RenameStatementPlugin：SQL XML是否对Java Client已有的方法进行禁用和重命名。
+* UseGeneratedKeysColumnPlugin：`SQL XML`是否使用主键自增的方式；
+* FindByIdsPlugin：`SQL XML`是否生成根据主键列表批量查询的`SQL Statement`；
+* FindAllPlugin：`SQL XML`是否生成查询所有列表的`SQL Statement`；
+* DeleteByIdsPlugin：`SQL XML`是否生成根据主键列表批量从删除的`SQL Statement`；
+* SaveBatchPlugin：`SQL XML`是否生成高效的批量插入记录的`SQL Statement`；
+* UpdateBatchPlugin：`SQL XML`是否生成高效的批量更新记录的`SQL Statement`；
+* RenameStatementPlugin：`SQL XML`是否对`Java Client`已有的方法进行禁用和重命名。
 
 
 ## 2. 使用配置
